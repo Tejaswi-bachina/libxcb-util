@@ -1,41 +1,52 @@
-About XCB util modules
+About XCB Util Modules
 ======================
 
-The XCB util modules provides a number of libraries which sit on top
-of libxcb, the core X protocol library, and some of the extension
-libraries. These experimental libraries provide convenience functions
-and interfaces which make the raw X protocol more usable. Some of the
-libraries also provide client-side code which is not strictly part of
-the X protocol but which have traditionally been provided by Xlib.
+The XCB util modules provide a set of libraries built on top of libxcb (the core X protocol library) along with some extension libraries.
 
-If you find any of these libraries useful, please let us know what
-you're using and why you aren't in a mental hospital yet. We'd welcome
-patches/suggestions for enhancement and new libraries; Please report any
-issues you find to the freedesktop.org bug tracker, at:
+These libraries aim to make working with the raw X protocol easier by offering helper functions and simplified interfaces. Some of them also include client-side utilities that were traditionally part of Xlib.
 
-  https://gitlab.freedesktop.org/xorg/lib/libxcb-util/-/issues
+If you find these libraries useful, we would really appreciate your feedback and contributions. Feel free to suggest improvements or report issues.
 
-Discussion about XCB occurs on the XCB mailing list:
+You can report issues here:
+https://gitlab.freedesktop.org/xorg/lib/libxcb-util/-/issues
 
-  https://lists.freedesktop.org/mailman/listinfo/xcb
+Discussion about XCB happens on the mailing list:
+https://lists.freedesktop.org/mailman/listinfo/xcb
 
-About XCB util module
+--------------------------------------------------
+
+About XCB Util Module
 =====================
 
-XCB util module provides the following libraries:
+The XCB util module includes the following libraries:
 
-  - aux: Convenient access to connection setup and some core requests.
-  - atom: Standard core X atom constants and atom caching.
-  - event: Some utilities that have little to do with events any more.
+- aux: Provides convenient access to connection setup and core requests  
+- atom: Handles standard X atom constants and caching  
+- event: Contains utility functions related to events  
 
-You can obtain the latest development versions of XCB util using GIT from:
+--------------------------------------------------
 
-  https://gitlab.freedesktop.org/xorg/lib/libxcb-util
+Getting the Source Code
+======================
 
-  For anonymous checkouts, use:
+You can get the latest development version using Git:
 
-    git clone --recursive https://gitlab.freedesktop.org/xorg/lib/libxcb-util.git
+For anonymous users:
+git clone --recursive https://gitlab.freedesktop.org/xorg/lib/libxcb-util.git
 
-  For developers, use:
+For developers:
+git clone --recursive git@gitlab.freedesktop.org:xorg/lib/libxcb-util.git
 
-    git clone --recursive git@gitlab.freedesktop.org:xorg/lib/libxcb-util.git
+--------------------------------------------------
+
+Contributing
+============
+
+Contributions are welcome! If you're new:
+
+1. Fork the repository  
+2. Make your changes  
+3. Commit your work  
+4. Open a pull request  
+
+Even small improvements like fixing typos or improving documentation are valuable.
